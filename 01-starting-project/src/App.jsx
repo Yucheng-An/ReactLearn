@@ -2,6 +2,7 @@ function Header(){
     return(
         <header>
             <img src = "src/assets/react-core-concepts.png"
+                 
         </header>
     )
 }
