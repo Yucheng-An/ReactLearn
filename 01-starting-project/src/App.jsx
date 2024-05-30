@@ -3,7 +3,7 @@ function Header(){
         <header>
             <img src = "src/assets/react-core-concepts.png"
                  alt = "Stylized atom" />
-            <h1></h1>
+            <h1>React Essentials</h1>
         </header>
     )
 }
