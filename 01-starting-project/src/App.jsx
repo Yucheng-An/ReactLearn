@@ -5,7 +5,7 @@ function Header(){
                  alt = "Stylized atom" />
             <h1>React Essentials</h1>
             <p>
-                This is 
+                This is custom header component
             </p>
         </header>
     )
