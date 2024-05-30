@@ -1,7 +1,7 @@
 function Header(){
     return(
         <header>
-            <img src = "src/"
+            <img src = "src/assets/react"
         </header>
     )
 }
