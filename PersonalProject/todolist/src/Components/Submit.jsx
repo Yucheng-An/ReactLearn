@@ -16,6 +16,7 @@ function Submit(props){
         }
         props.list.push(newTask)
         props.setCurrentList(props.list)
+        console.log()
     }
     const onChange = (event) => {
         console.log(event.target.value)
