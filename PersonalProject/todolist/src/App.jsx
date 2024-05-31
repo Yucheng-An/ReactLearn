@@ -13,7 +13,7 @@ function App() {
   const [newTask, setNewTask] = useState(null)
 
 
-  const response.then()fetch('http://localhost:3001/todolist')
+fetch('http://localhost:3001/todolist')
   const data = await response.json()
   console.log(data)
   setCurrentList(data)
