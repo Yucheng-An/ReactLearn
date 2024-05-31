@@ -135,6 +135,7 @@ main h2 {
 }
 
 #tab-content {
+  position:relative;
   padding: 1rem;
   border-radius: 6px;
   background-color: #2f1d43;
