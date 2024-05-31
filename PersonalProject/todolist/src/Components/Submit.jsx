@@ -41,7 +41,7 @@ function Submit(props){
             <button type="submit">Add</button>
 
             <label>
-                <input type="checkbox" name="subscribe" value="yes"></input>/
+                <input type="checkbox" name="subscribe" value="yes"></input>
             </label>
         </form>
     )
