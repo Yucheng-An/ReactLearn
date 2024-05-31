@@ -14,7 +14,11 @@ function App() {
   const [newTask, setNewTask] = useState(null)
 
   useEffect(()=>{
-    
+    async function fetchData(){
+      const response = await fetch('http://localhost:8000/tasks')
+      const data = await response.json()
+      setCurrentList(data)
+    }
   })
   return (
     <div>
