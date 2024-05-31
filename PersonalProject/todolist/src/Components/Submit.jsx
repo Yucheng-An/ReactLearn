@@ -13,7 +13,7 @@ function Submit(props){
             title: task,
             completed: false
         }
-        axios.post("http://localhost:3001/todolist")
+        axios.post("http://localhost:3001/todolist", newTask)
         props.currentList.push(newTask)
         console.log(props.currentList)
         props.setCurrentList(props.currentList)
