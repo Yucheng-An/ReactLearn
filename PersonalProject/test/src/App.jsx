@@ -7,7 +7,7 @@ function App() {
    }
   return (
     <div>
-        <form>
+        <form onSubmit={handleTaskSubmit}>
             <input type="text" placeholder="Enter a task"/>
             <input type="data" placeholder="Enter a date"/>
             <button type="submit">Add Task</button>
