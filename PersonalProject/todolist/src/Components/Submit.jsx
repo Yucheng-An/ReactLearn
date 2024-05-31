@@ -2,7 +2,7 @@ import '../App.css';
 import axios from"axios";
 
 function randomId(){
-    return Math.floor(Math.random())
+    return Math.floor(Math.random()*10000)
 }
 
 function Submit(props){
