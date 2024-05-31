@@ -28,8 +28,8 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-
-     
+    const form = event.target
+    
   }
   return (
     <div>
