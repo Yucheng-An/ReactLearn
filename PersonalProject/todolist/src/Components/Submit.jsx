@@ -37,7 +37,7 @@ function Submit(props){
 
     return (
         <form id = "submitForm" onSubmit={handleSubmit}>
-            <input id= ""type="text" placeholder="Add a new task" onChange={handleOnChange}/>
+            <input id= "inputBox" type="text" placeholder="Add a new task" onChange={handleOnChange}/>
             <button type="submit">Add</button>
         </form>
     )

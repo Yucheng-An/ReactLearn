@@ -25,13 +25,21 @@ header {
   text-align: center;
   margin: 3rem 0;
 }
-#submitForm{
+/*#submitForm{*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  margin: 1rem 0;*/
+/*}*/
+
+#inputBox {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem 0;
-
 }
+
+
 /*header img {*/
 /*  height: 5rem;*/
 /*  width: 10rem;*/
