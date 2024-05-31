@@ -6,7 +6,7 @@ function Display(props){
     <div>
         <ul>
             {props.currentList.map((item) => (
-                <li id = "task"key={item.id}>{item.title}</li>
+                <li id = "task" key={item.id}>{item.title}</li>
             ))}
         </ul>
     </div>
