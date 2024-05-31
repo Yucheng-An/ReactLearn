@@ -32,14 +32,10 @@ header {
 }
 
 #ulBox{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
   justify-content: center;
 }
+
+
 /*header img {*/
 /*  height: 5rem;*/
 /*  width: 10rem;*/
