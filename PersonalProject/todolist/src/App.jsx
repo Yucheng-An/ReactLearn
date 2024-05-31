@@ -1,6 +1,5 @@
 import { useState , useEffect} from 'react'
 import axios from "axios";
-import './App.css'
 import Header from './Components/Header'
 import Display from './Components/Display'
 import Submit from './Components/Submit'
