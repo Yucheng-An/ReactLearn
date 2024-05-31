@@ -7,7 +7,7 @@ function Submit(props){
     const handleSubmit = (event) => {
         event.preventDefault()
         const task = props.newTask
-        const id = props.random().length + 1
+        const id = props.random()
         const newTask = {
             id: id,
             title: task,
