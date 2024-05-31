@@ -14,9 +14,8 @@ function App() {
 
 
   useEffect(() => {
-
-  
-    , []);
+      
+  }
   return (
       <div>
         <Header/>
