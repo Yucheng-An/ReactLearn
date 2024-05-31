@@ -26,21 +26,6 @@ header {
   margin: 3rem 0;
 }
 
-#task{
-  text-align: center;
-  border-radius: 6px;
-}
-
-#ulBox{
-  justify-content: center;
-}
-
-#center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 /*header img {*/
 /*  height: 5rem;*/
 /*  width: 10rem;*/
