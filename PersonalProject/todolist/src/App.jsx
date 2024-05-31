@@ -15,7 +15,7 @@ function App() {
 
   useEffect(()=>{
     async function fetchData(){
-      const response = await fetch('http://localhost:8000/tasks')
+      const response = await fetch('http://localhost:/tasks')
       const data = await response.json()
       setCurrentList(data)
     }
