@@ -4,13 +4,13 @@ import '../App.css';
 function Display(props){
     return (
     <div id = "center-container">
-        <ul id = "ulBox">
+        <div id = "ulBox">
             {props.currentList.map((item) => (
                 <input key={item.id}>
                 <p id = "task" key={item.id}>{item.title}</p>
                 </input>
             ))}
-        </ul>
+        </div>
     </div>
 )
 }
