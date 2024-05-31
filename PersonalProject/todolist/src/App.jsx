@@ -22,7 +22,7 @@ const list = [
 
 
 function App() {
-  const [list, setList] = useState(0)
+  const [currentList, setList] = useState(0)
   return (
     <div>
         <Header />
