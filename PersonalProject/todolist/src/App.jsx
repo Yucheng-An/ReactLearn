@@ -42,7 +42,7 @@ function App() {
     <div>
         <Header />
         <Display currentList={currentList} />
-        <Submit props={}/>
+        <Submit list={list}/>
     </div>
   )
 }
