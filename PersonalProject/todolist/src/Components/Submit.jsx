@@ -1,7 +1,10 @@
 import '../App.css';
 import axios from"axios";
 
-function randomId(){
+function props.currentList.push(newTask)
+console.log(props.currentList)
+props.setCurrentList(props.currentList)
+props.setNewTask(null)(){
     return Math.floor(Math.random()*10000)
 }
 
