@@ -4,9 +4,9 @@ import '../App.css';
 
 function Submit(){
     return (
-        <header>
+        <form>
             <h1>To to list</h1>
-        </header>
+        </form>
     )
 }
 
