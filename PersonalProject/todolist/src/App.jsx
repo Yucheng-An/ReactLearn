@@ -30,7 +30,7 @@ function App() {
     event.preventDefault()
     const task = event.target.value
     const id = currentList.length + 1
-    
+    const newTask 
   }
   return (
     <div>
