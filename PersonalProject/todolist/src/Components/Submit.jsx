@@ -20,7 +20,7 @@ function Submit(props){
         console.log(props.list)
     }
     
-    const handleOnChange 
+    const handleOnChange = (event) 
 
     return (
         <form onSubmit={handleSubmit}>
