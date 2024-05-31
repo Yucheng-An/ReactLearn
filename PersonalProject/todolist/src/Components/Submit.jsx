@@ -15,6 +15,7 @@ function Submit(props){
         const newTask = {
             id: id,
             title: task,
+            date : date,
             completed: false
         }
         axios.post("http://localhost:3001/todolist", newTask).then((response) =>{
