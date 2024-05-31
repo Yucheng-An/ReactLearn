@@ -22,7 +22,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetchData().then(r => console.log('Data fetched') );
+    fetchData().then(r => console.log('Data fetched'));
   }
     , []);
   return (
