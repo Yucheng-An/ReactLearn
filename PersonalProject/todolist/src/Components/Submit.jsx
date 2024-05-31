@@ -19,6 +19,8 @@ function Submit(props){
         props.setCurrentList(props.list)
         console.log(props.list)
     }
+    
+    const handleOnChange 
 
     return (
         <form onSubmit={handleSubmit}>
