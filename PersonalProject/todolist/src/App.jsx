@@ -34,8 +34,6 @@ function App() {
       id: id,
       title: task,
       completed: false
-    
-    }
   }
   return (
     <div>
