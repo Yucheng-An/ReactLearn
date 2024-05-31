@@ -39,7 +39,7 @@ function Submit(props){
     return (
         <form id = "submitForm" onSubmit={handleSubmit}>
             <textarea id= "inputBox" placeholder="Add a new task" onChange={handleOnChange}/>
-            <button id = "submitButton" type="submit">Add</button>
+            <Button id = "submitButton" type="submit">Add</Button>
         </form>
     )
 }
