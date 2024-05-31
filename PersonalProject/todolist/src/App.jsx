@@ -8,6 +8,7 @@ function App() {
   return (
     <div>
         <Header />
+        <section>k</section>
     </div>
   )
 }
