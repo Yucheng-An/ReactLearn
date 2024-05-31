@@ -40,7 +40,7 @@ function Submit(props){
             <input id= "inputBox" type="text" placeholder="Add a new task" onChange={handleOnChange}/>
             <button type="submit">Add</button>
 
-            <label>
+            <label>asdf
                 {/*<input type="checkbox" name="subscribe" value="yes"></input>*/}
             </label>
         </form>
