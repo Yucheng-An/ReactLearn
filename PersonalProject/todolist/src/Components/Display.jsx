@@ -8,6 +8,7 @@ function Display(props){
             {props.currentList.map((item) => (
                 <input></input>
                 <p id = "task" key={item.id}>{item.title}</p>
+    </input>
             ))}
         </ul>
     </div>
