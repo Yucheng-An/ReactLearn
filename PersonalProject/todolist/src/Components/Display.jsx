@@ -7,7 +7,8 @@ function Display(props){
         <div id = "ulBox">
             {props.currentList.map((item) => (
                 <p id = "task" key={item.id}>
-                    {item.title}<button>done!</button>
+                    {item.title}
+                    <button>done!</button>
                 </p>
             ))}
         </div>
