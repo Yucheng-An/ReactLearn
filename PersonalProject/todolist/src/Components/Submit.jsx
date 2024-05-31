@@ -42,7 +42,6 @@ function Submit(props){
 
             <label>
                 <input type="checkbox" name="subscribe" value="yes">
-                    Subscribe to newsletter
             </label>
         </form>
     )
