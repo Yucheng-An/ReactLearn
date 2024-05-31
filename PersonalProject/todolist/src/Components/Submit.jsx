@@ -18,9 +18,7 @@ function Submit(props){
         props.setCurrentList(props.list)
         console.log(props.list)
     }
-    const onChange = (event) => {
-        console.log(event.target.value)
-    }
+
     return (
         <form onSubmit={handleSubmit} onChange={onChange}>
             <input type="text" placeholder="Add a new task" />
