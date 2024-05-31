@@ -7,7 +7,7 @@ function Submit(props){
     const handleSubmit = (event) => {
         event.preventDefault()
         const task = props.newTask
-        const id =
+        const id = 
         const newTask = {
             id: id,
             title: task,
