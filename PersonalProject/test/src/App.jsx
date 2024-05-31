@@ -5,7 +5,7 @@ function App() {
    const handleTaskSubmit = (event) =>{
         event.preventDefault()
        console.log("Task Submitted")
-       console.log(event.target.length())
+       console.log(event.target.length)
    }
   return (
     <div>
