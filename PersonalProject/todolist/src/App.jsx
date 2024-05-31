@@ -31,7 +31,10 @@ function App() {
     const task = event.target.value
     const id = currentList.length + 1
     const newTask = {
-      
+      id: id,
+      title: task,
+      completed: false
+    
     }
   }
   return (
