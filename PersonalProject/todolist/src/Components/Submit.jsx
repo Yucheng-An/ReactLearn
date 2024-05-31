@@ -21,7 +21,7 @@ function Submit(props){
     }
 
     return (
-        <form onSubmit={handleSubmit} onChange={onChange}>
+        <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Add a new task" />
             <button type="submit">Add</button>
         </form>
