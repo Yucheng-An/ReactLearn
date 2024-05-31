@@ -42,7 +42,7 @@ function App() {
     <div>
         <Header />
         <Display currentList={currentList} />
-        <Submit handleSubmit={}/>
+        <Submit handleSubmit={handleSubmit}/>
     </div>
   )
 }
