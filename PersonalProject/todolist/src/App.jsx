@@ -28,7 +28,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    const task = event.target
+    const task = event.target.value
 
   }
   return (
