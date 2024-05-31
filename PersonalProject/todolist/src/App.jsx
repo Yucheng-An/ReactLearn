@@ -16,7 +16,7 @@ function App() {
     axios.get("http://localhost:3001/todolist").then((response)=>{
         setCurrentList(response.data)
     }).catch(((error)=>console.log(error)))
-  }, []
+  }, [])
   return (
       <div>
         <Header/>
