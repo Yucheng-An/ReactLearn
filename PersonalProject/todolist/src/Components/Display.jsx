@@ -3,7 +3,7 @@ import '../App.css';
 
 function Display(props){
     return (
-    <div>
+    <div id = "center-container">
         <ul id = "ulBox">
             {props.currentList.map((item) => (
                 <li id = "task" key={item.id}>{item.title}</li>

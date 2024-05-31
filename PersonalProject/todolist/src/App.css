@@ -35,7 +35,12 @@ header {
   justify-content: center;
 }
 
-
+#center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 /*header img {*/
 /*  height: 5rem;*/
 /*  width: 10rem;*/
