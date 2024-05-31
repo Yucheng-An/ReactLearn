@@ -4,7 +4,9 @@ import { useState } from 'react'
 
 
 function Submit(props){
-    const on
+    const onChange = (event) => {
+        console.log(event.target.value)
+    }
     return (
         <form onClick={props.handleSubmit}>
             <input type="text" placeholder="Add a new task" />
