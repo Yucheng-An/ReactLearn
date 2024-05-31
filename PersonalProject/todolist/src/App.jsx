@@ -46,6 +46,7 @@ function App() {
         <Submit list={list}
                 currentList = {currentList}
                 setCurrentList={setCurrentList}
+                newTask={newTask}
                 setNewTask={setNewTask}/>
     </div>
   )
