@@ -42,7 +42,7 @@ function App() {
     <div>
         <Header />
         <Display currentList={currentList} />
-        <Submit list={list} setCurrentList={setCurrentList}/>
+        <Submit list={list} currentList = {setCurrentList={setCurrentList}/>
     </div>
   )
 }
