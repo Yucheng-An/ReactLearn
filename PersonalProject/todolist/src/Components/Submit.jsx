@@ -11,4 +11,4 @@ function Submit(){
 }
 
 
-export default Header;
+export default Submit;
