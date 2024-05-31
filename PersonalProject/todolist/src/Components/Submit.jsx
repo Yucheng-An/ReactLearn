@@ -15,15 +15,15 @@ function Submit(props){
         }
         axios.post("http://localhost:3001/todolist", newTask).then((response) =>{
             if(response.status === 201){
-                console.log("Task added") 
+                console.log("Task added")
+                props.currentList.push(newTask)
+                console.log(props.currentList)
+                props.setCurrentList(props.currentList)
+                props.setNewTask(null)
             }else{
                 console.log("Task not added")
             }
         })
-        props.currentList.push(newTask)
-        console.log(props.currentList)
-        props.setCurrentList(props.currentList)
-        props.setNewTask(null)
     }
     
     const handleOnChange = (event) => {
