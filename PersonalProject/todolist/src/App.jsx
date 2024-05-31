@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     axios.get("http://localhost:3001/todolist").then((response)=>{
         setCurrentList(response.data)
-    })
+    }).catch(())
   }, [])
   return (
       <div>
