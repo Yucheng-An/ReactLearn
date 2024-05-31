@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 
 function App() {
-   const handleTaskSubmit = () =>{
-       
+   const handleTaskSubmit = (event) =>{
+event.preventDefault()  
        console.log("Task Submitted")
    }
   return (
