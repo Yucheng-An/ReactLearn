@@ -3,7 +3,7 @@ import '../App.css';
 
 
 function Submit(props){
-    
+    const onChanege
     return (
         <form onClick={props.handleSubmit}>
             <input type="text" placeholder="Add a new task" />
