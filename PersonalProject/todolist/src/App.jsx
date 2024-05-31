@@ -12,6 +12,8 @@ import data from './assets/data'
 function App() {
     const [currentList, setCurrentList] = useState()
   const [newTask, setNewTask] = useState(null)
+
+
   async function fetchData() {
     const response = await fetch('http://localhost:3001/todolist')
     const data = await response.json()
