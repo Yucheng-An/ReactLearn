@@ -1,62 +1,33 @@
-import * as React from 'react';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import ListSubheader from '@mui/material/ListSubheader';
-import Switch from '@mui/material/Switch';
-import WifiIcon from '@mui/icons-material/Wifi';
-import BluetoothIcon from '@mui/icons-material/Bluetooth';
+import { useState , useEffect} from 'react'
+import axios from "axios";
+import Header from './Components/Header'
+import Display from './Components/Display'
+import Submit from './Components/Submit'
 
-export default function SwitchListSecondary() {
-    const [checked, setChecked] = React.useState(['wifi']);
 
-    const handleToggle = (value) => () => {
-        const currentIndex = checked.indexOf(value);
-        const newChecked = [...checked];
 
-        if (currentIndex === -1) {
-            newChecked.push(value);
-        } else {
-            newChecked.splice(currentIndex, 1);
-        }
+function App() {
+  const [currentList, setCurrentList] = useState([])
+  const [newTask, setNewTask] = useState(null)
 
-        setChecked(newChecked);
-    };
 
-    return (
-        <List
-            sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}
-            subheader={<ListSubheader>Settings</ListSubheader>}
-        >
-            <ListItem>
-                <ListItemIcon>
-                    <WifiIcon />
-                </ListItemIcon>
-                <ListItemText id="switch-list-label-wifi" primary="Wi-Fi" />
-                <Switch
-                    edge="end"
-                    onChange={handleToggle('wifi')}
-                    checked={checked.indexOf('wifi') !== -1}
-                    inputProps={{
-                        'aria-labelledby': 'switch-list-label-wifi',
-                    }}
-                />
-            </ListItem>
-            <ListItem>
-                <ListItemIcon>
-                    <BluetoothIcon />
-                </ListItemIcon>
-                <ListItemText id="switch-list-label-bluetooth" primary="Bluetooth" />
-                <Switch
-                    edge="end"
-                    onChange={handleToggle('bluetooth')}
-                    checked={checked.indexOf('bluetooth') !== -1}
-                    inputProps={{
-                        'aria-labelledby': 'switch-list-label-bluetooth',
-                    }}
-                />
-            </ListItem>
-        </List>
-    );
+  useEffect(() => {
+    axios.get("http://localhost:3001/todolist").then((response)=>{
+        setCurrentList(response.data)
+    }).catch(((error)=>console.log(error)))
+  }, [])
+
+
+  return (
+      <div>
+        <Header/>
+        <Display currentList={currentList}/>
+        <Submit currentList={currentList}
+                setCurrentList={setCurrentList}
+                newTask={newTask}
+                setNewTask={setNewTask}/>
+      </div>
+  )
 }
+
+export default App
