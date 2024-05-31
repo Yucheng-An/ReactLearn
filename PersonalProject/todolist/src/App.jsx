@@ -27,7 +27,7 @@ function App() {
   const [currentList, setCurrentList] = useState(list)
 
   const handleSubmit = (event) => {
-
+  }
   return (
     <div>
         <Header />
