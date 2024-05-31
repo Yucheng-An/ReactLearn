@@ -17,7 +17,7 @@ function Submit(props){
         props.list.push(newTask)
         console.log(props.list)
         props.setCurrentList(props.list)
-
+        props.setNewTask('')
     }
     
     const handleOnChange = (event) => {
