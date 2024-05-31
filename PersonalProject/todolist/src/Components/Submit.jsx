@@ -8,7 +8,7 @@ function Submit(props){
         console.log(event.target.value)
     }
     return (
-        <form onClick={props.handleSubmit} onChange={}>
+        <form onClick={props.handleSubmit} onChange={onChange}>
             <input type="text" placeholder="Add a new task" />
             <button type="submit">Add</button>
         </form>
