@@ -9,27 +9,26 @@ import data from './assets/data'
 
 
 
-function App() {
+async function App() {
   const [currentList, setCurrentList] = useState()
   const [newTask, setNewTask] = useState(null)
 
 
-
-    const response = await fetch('http://localhost:3001/todolist')
-    const data = await response.json()
-    console.log(data)
-    setCurrentList(data)
+  const response = await fetch('http://localhost:3001/todolist')
+  const data = await response.json()
+  console.log(data)
+  setCurrentList(data)
 
   return (
-    <div>
-        <Header />
-        <Display currentList={currentList} />
+      <div>
+        <Header/>
+        <Display currentList={currentList}/>
         <Submit list={currentList}
-                currentList = {currentList}
+                currentList={currentList}
                 setCurrentList={setCurrentList}
                 newTask={newTask}
                 setNewTask={setNewTask}/>
-    </div>
+      </div>
   )
 }
 
