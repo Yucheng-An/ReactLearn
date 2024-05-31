@@ -26,7 +26,7 @@ const list = [
 function App() {
   const [currentList, setCurrentList] = useState(list)
 
-  
+  const [new, setNew] = useState()
   const handleSubmit = (event) => {
     event.preventDefault()
     const task = event.target.value.text
