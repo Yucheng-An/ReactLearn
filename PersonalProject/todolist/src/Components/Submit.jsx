@@ -40,7 +40,12 @@ function Submit(props){
             <input id= "inputBox" type="text" placeholder="Add a new task" onChange={handleOnChange}/>
             <button type="submit">Add</button>
 
-            inputBox
+            <form>
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                        Subscribe to newsletter
+                </label>
+            </form>
         </form>
     )
 }
