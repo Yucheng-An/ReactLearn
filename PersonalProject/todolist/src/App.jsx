@@ -29,6 +29,7 @@ function App() {
   return (
     <div>
         <Header />
+        <Display currentList={currentList} />
     </div>
   )
 }
