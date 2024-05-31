@@ -17,6 +17,7 @@ function App() {
         setCurrentList(response.data)
     }).catch(((error)=>console.log(error)))
   }, [])
+    
   return (
       <div>
         <Header/>
