@@ -31,6 +31,7 @@ function App() {
     <div>
         <Header />
         <Display currentList={currentList} />
+        <Submit />
     </div>
   )
 }
