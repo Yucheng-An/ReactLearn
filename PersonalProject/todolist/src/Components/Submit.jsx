@@ -9,7 +9,9 @@ function Submit(props){
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        
+        if (props.newTask === null){
+            
+        }
         const task = props.newTask
         const id = randomId()
         const date = new Date()
