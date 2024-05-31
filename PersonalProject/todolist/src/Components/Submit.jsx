@@ -21,7 +21,7 @@ function Submit(props){
     }
     
     const handleOnChange = (event) => {
-        
+        props.setNewTask(event.target.value)
     }
 
     return (
