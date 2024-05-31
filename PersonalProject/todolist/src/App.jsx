@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
         <Header />
-
+        <h1>{count}</h1>  
     </div>
   )
 }
