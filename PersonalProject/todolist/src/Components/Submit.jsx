@@ -15,8 +15,8 @@ function Submit(props){
         }
         axios.post("http://localhost:3001/todolist", newTask).then((response) =>{
             if(response.status === 201){
-                
-            }
+                console.log("Task added")
+            }else
         })
         props.currentList.push(newTask)
         console.log(props.currentList)
