@@ -35,6 +35,7 @@ function App() {
       title: task,
       completed: false
   }
+    list.push(newTask)
     
   return (
     <div>
