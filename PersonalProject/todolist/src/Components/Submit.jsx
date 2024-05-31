@@ -1,7 +1,9 @@
 import '../App.css';
 import axios from"axios";
 
-function randomId(){}
+function randomId(){
+    return Math.floor(Math.random())
+}
 
 function Submit(props){
 
