@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
+import Display from './Components/Display'
+
 
 const list = [
   {
@@ -27,7 +29,7 @@ function App() {
   return (
     <div>
         <Header />
-        
+
     </div>
   )
 }
