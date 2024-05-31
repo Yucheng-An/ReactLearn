@@ -29,7 +29,7 @@ function App() {
   const handleSubmit = (event) => {
     event.preventDefault()
     const task = event.target.value
-
+    const id = currentList.length + 1
   }
   return (
     <div>
