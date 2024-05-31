@@ -14,7 +14,10 @@ function App() {
 
 
   useEffect(() => {
-      
+    axios.get('http://localhost:3001/tasks')
+    .then((response) => {
+      setCurrentList(response.data)
+    })
   }
   return (
       <div>
