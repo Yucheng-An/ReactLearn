@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
         <Header />
-        <section></section>
+        
     </div>
   )
 }
