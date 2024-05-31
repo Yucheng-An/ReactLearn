@@ -8,7 +8,7 @@ function Display(props){
             {props.currentList.map((item) => (
                 <input type = "checkbox" key={item.id}>
                 <p id = "task" key={item.id}>{item.title}</p>
-                </input>
+
             ))}
         </div>
     </div>
