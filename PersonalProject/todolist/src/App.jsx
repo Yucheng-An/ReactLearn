@@ -31,6 +31,7 @@ function App() {
           {currentList.map((item) => (
             <li key={item.id}>{item.title}</li>
           ))}
+        </ul>
     </div>
   )
 }
