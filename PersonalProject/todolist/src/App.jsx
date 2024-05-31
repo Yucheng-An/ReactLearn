@@ -23,11 +23,10 @@ const list = [
 
 function App() {
   const [currentList, setCurrentList] = useState(list)
-    
+
   return (
     <div>
         <Header />
-
     </div>
   )
 }
