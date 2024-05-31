@@ -5,7 +5,7 @@ function Display(props){
     return (
     <div id="core-concepts">
         <ul>
-            {currentList.map((item) => (
+            {props.currentList.map((item) => (
                 <li key={item.id}>{item.title}</li>
             ))}
         </ul>
