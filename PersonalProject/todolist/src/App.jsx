@@ -20,7 +20,6 @@ function App() {
     console.log(data)
     setCurrentList(data)
   }
-  fetchData()
   useEffect(()=>{
     async function fetchData() {
       const response = await fetch('http://localhost:3001/todolist')
