@@ -40,6 +40,14 @@ header {
   margin-left: 30px;
 }
 
+#submitButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  margin-left: 30px;
+}
+
 
 /*header img {*/
 /*  height: 5rem;*/
