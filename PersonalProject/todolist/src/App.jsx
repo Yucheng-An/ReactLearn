@@ -26,7 +26,7 @@ const list = [
 function App() {
   const [currentList, setCurrentList] = useState(list)
   const [newTask, setNewTask] = useState(null)
-  
+
   return (
     <div>
         <Header />
