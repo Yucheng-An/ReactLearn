@@ -18,6 +18,9 @@ function App() {
     .then((response) => {
       setCurrentList(response.data)
     })
+    .catch((error) => {
+      console.log(error)
+    })
   }
   return (
       <div>
