@@ -16,10 +16,7 @@ function App() {
 
   fetch('http://localhost:3001/todolist').then(r => r.json()).then(data => {
     setCurrentList(data)
-  }
-    const data = await response.json()
-    console.log(data)
-    setCurrentList(data)
+  })
 
   return (
       <div>
