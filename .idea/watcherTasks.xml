@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <enabled-global>
-      <option value="COMP 227 Git Watcher" />
-      <option value="COMP 227 Git Watcher Javascript" />
-      <option value="COMP 227 Git Watcher JSON" />
+      <option value="JSX Git Watcher" />
+      <option value="JS Git Watcher" />
+      <option value="JSON Git Watcher" />
     </enabled-global>
   </component>
 </project>
