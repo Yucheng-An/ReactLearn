@@ -3,7 +3,8 @@ import './App.css'
 import Header from './Components/Header'
 import Display from './Components/Display'
 import Submit from './Components/Submit'
-import 
+import data from './assets/data'
+
 
 const list = [
   {
