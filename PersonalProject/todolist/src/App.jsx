@@ -27,7 +27,13 @@ function App() {
   return (
     <div>
         <Header />
-        <div id = 
+        <div>
+            <ul>
+                {currentList.map((item) => (
+                    <li key={item.id}>{item.title}</li>
+                ))}
+            </ul>
+        </div>
     </div>
   )
 }
