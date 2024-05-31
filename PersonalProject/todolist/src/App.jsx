@@ -24,7 +24,7 @@ function App() {
     <div>
         <Header />
         <Display currentList={currentList} />
-        <Submit list={currentList
+        <Submit list={currentList}
                 currentList = {currentList}
                 setCurrentList={setCurrentList}
                 newTask={newTask}
