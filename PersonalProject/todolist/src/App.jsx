@@ -5,21 +5,12 @@ import Display from './Components/Display'
 import Submit from './Components/Submit'
 import data from './assets/data'
 
-fetch('http://localhost:3001/todolist').then(r => r.json()).then(data => {
-  setCurrentList(data)
-})
-
 
 
 function App() {
   const [currentList, setCurrentList] = useState(null)
   const [newTask, setNewTask] = useState(null)
-
-
-
-  fetch('http://localhost:3001/todolist').then(r => r.json()).then(data => {
-    setCurrentList(data)
-  })
+  
 
   return (
       <div>
