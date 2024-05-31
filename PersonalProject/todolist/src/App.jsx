@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Display from './Components/Display'
-
+import Submit from './Components/Submit'
 
 const list = [
   {
@@ -26,7 +26,7 @@ const list = [
 function App() {
   const [currentList, setCurrentList] = useState(list)
 
-    
+
   return (
     <div>
         <Header />
