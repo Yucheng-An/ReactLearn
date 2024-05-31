@@ -34,10 +34,10 @@ function App() {
       id: id,
       title: task,
       completed: false
-  }
+    }
     list.push(newTask)
     setCurrentList(list)
-    
+  }
   return (
     <div>
         <Header />
