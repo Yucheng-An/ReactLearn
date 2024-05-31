@@ -4,7 +4,7 @@ import '../App.css';
 
 function Submit(props){
     return (
-        <form>
+        <form type={}>
 
         </form>
     )
