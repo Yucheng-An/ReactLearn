@@ -28,7 +28,7 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log(event.target.value)
+    console.log("clicked!")
     // const task = event.target.value.text
     // const id = currentList.length + 1
     // const newTask = {
