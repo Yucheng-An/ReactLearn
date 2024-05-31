@@ -10,7 +10,7 @@ import data from './assets/data'
 
 
 function App() {
-    const [currentList, setCurrentList] = useState()
+  const [currentList, setCurrentList] = useState()
   const [newTask, setNewTask] = useState(null)
 
 
