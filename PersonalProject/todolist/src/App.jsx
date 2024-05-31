@@ -14,7 +14,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:3001")
+    axios.get("http://localhost:3001/todolist")
   }, [])
   return (
       <div>
