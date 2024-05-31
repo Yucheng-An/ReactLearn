@@ -13,7 +13,7 @@ function Submit(props){
         const id = randomId()
         const date = new Date()
         const newTask = {
-            id: id,
+            id: ,
             title: task,
             date : date,
             completed: false
