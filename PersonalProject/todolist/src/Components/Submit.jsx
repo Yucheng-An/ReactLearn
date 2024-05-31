@@ -14,7 +14,8 @@ function Submit(props){
             title: task,
             completed: false
         }
-        props.setCurrentList(props.list.push(newTask))
+        props.list.push(newTask)
+        props.setCurrentList(props.list)
         console.log(props.list)
     }
     
