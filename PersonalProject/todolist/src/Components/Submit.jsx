@@ -7,7 +7,6 @@ function Submit(props){
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        console.log("the new task is:", event.target.value.text)
         const task = props.newTask
         const id = props.currentList.length + 1
         const newTask = {
