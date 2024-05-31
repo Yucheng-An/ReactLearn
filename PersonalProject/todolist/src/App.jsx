@@ -6,27 +6,11 @@ import Submit from './Components/Submit'
 import data from './assets/data'
 
 
-const list = [
-  {
-    id: 1,
-    title: 'Go to the gym',
-    completed: false
-  },
-  {
-    id: 2,
-    title: 'Do laundry',
-    completed: true
-  },
-  {
-    id: 3,
-    title: 'Finish project',
-    completed: false
-  }
-]
+
 
 
 function App() {
-  const [currentList, setCurrentList] = useState(list)
+  const [currentList, setCurrentList] = useState(data.tasks)
   const [newTask, setNewTask] = useState(null)
 
   return (
