@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState , useEffect} from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Display from './Components/Display'
@@ -14,7 +14,7 @@ function App() {
   const [newTask, setNewTask] = useState(null)
 
   useEffect(()=>{
-
+    
   })
   return (
     <div>
