@@ -36,6 +36,7 @@ function App() {
       completed: false
   }
     list.push(newTask)
+    setCurrentList(list)
     
   return (
     <div>
