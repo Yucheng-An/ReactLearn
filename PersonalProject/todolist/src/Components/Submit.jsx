@@ -2,7 +2,7 @@ import react from 'react';
 import '../App.css';
 
 
-function Header(){
+function Submit(){
     return (
         <header>
             <h1>To to list</h1>
