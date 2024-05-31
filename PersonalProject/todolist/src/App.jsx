@@ -13,6 +13,8 @@ function App() {
   const [currentList, setCurrentList] = useState(data.tasks)
   const [newTask, setNewTask] = useState(null)
 
+  useEffect(()=>{
+  })
   return (
     <div>
         <Header />
