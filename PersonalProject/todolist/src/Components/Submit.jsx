@@ -14,7 +14,7 @@ function Submit(props){
         }
         props.list.push(newTask)
         props.setCurrentList(props.list)
-    
+            
     }
     return (
         <form onClick={props.handleSubmit}>
