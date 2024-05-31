@@ -8,8 +8,7 @@ import data from './assets/data'
 
 
 
-
-async function App() {
+function App() {
   const [currentList, setCurrentList] = useState()
   const [newTask, setNewTask] = useState(null)
 
