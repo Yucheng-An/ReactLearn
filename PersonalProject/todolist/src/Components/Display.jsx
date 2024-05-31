@@ -2,7 +2,7 @@ import react from'react';
 import '../App.css';
 
 function Display(){
-return (
+    return (
     <div id="core-concepts">
         <ul>
             {currentList.map((item) => (
