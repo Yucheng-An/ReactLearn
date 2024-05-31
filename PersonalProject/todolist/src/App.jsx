@@ -26,7 +26,7 @@ const list = [
 function App() {
   const [currentList, setCurrentList] = useState(list)
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (event) => {
 
   return (
     <div>
