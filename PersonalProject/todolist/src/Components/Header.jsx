@@ -4,7 +4,7 @@ import '../App.css';
 function Header(){
     return (
         <header>
-            <h1>To to list</h1>
+            <h1>To to list App</h1>
         </header>
     )
 }
