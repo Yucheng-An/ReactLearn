@@ -17,7 +17,7 @@ function Submit(props){
             if(response.status === 201){
                 console.log("Task added")
             }else{
-                
+                console.log("Task not added")
             }
         })
         props.currentList.push(newTask)
