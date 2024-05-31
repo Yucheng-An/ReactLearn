@@ -10,7 +10,7 @@ import data from './assets/data'
 
 
 function App() {
-  const [currentList, setCurrentList] = useState(data.tasks)
+    const [currentList, setCurrentList] = useState()
   const [newTask, setNewTask] = useState(null)
 
   useEffect(()=>{
