@@ -2,7 +2,7 @@ import react from 'react';
 import '../App.css';
 
 
-function Submit(){
+function Submit(props){
     return (
         <form>
             <h1>To to list</h1>
