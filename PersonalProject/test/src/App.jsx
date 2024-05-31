@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 function App() {
    const handleTaskSubmit = () =>{
-       
+       console.log("Task Submitted")
    }
   return (
     <div>
