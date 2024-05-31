@@ -14,7 +14,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:399")
+    axios.get("http://localhost:3001")
   }, [])
   return (
       <div>
