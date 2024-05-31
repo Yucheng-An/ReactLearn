@@ -5,7 +5,7 @@ function App() {
    const handleTaskSubmit = (event) =>{
         event.preventDefault()
        console.log("Task Submitted")
-       console.log(event.target[2].value)
+       console.log(event.target)
    }
   return (
     <div>
