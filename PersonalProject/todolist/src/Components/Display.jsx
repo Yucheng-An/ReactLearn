@@ -8,7 +8,7 @@ function Display(props){
             {props.currentList.map((item) => (
                 <input>
                 <p id = "task" key={item.id}>{item.title}</p>
-    </input>
+                </input>
             ))}
         </ul>
     </div>
