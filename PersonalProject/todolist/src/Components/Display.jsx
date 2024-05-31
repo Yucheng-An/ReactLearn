@@ -1,7 +1,7 @@
 import react from'react';
 import '../App.css';
 
-function Display(){
+function Display(props){
     return (
     <div id="core-concepts">
         <ul>
