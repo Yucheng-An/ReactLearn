@@ -29,7 +29,7 @@ function App() {
         <Header />
         <ul>
           {currentList.map((item) => (
-            <li key={item.id}>{item.}</li>
+            <li key={item.id}>{item.title}</li>
           ))}
     </div>
   )
