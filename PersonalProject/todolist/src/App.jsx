@@ -20,6 +20,7 @@ function App() {
       console.log(data)
       setCurrentList(data)
     }
+    fetchData()
   })
   return (
     <div>
