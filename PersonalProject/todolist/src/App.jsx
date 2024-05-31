@@ -11,8 +11,7 @@ import data from './assets/data'
 function App() {
   const [currentList, setCurrentList] = useState(null)
   const [newTask, setNewTask] = useState(null)
-
-=======
+    
 
   useEffect(() => {
     fetchData().then(r => console.log('Data fetched'));
