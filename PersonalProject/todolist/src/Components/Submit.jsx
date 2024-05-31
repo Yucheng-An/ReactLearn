@@ -15,6 +15,7 @@ function Submit(props){
             completed: false
         }
         props.list.push(newTask)
+        props.setCurrentList(props.list)
         console.log(props.list)
     }
     
