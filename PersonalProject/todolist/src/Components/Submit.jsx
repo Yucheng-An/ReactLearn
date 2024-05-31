@@ -3,7 +3,10 @@ import '../App.css';
 
 
 function Submit(props){
-    const onChanege
+    const onChanege = (event) => {
+        event.preventDefault()
+    
+    }
     return (
         <form onClick={props.handleSubmit}>
             <input type="text" placeholder="Add a new task" />
