@@ -21,7 +21,7 @@ function App() {
     }
   }
 
-  fetchData();
+======= 
   return (
       <div>
         <Header/>
