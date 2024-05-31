@@ -11,6 +11,7 @@ function Submit(props){
         event.preventDefault()
         const task = props.newTask
         const id = randomId()
+        const date = new Date()
         const newTask = {
             id: id,
             title: task,
