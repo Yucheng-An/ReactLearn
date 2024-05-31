@@ -4,7 +4,6 @@ import './App.css'
 import Header from './Components/Header'
 import Display from './Components/Display'
 import Submit from './Components/Submit'
-import data from './assets/data'
 
 
 
@@ -14,7 +13,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:3001/todolist").then(()=>{
+    axios.get("http://localhost:3001/todolist").then((response)=>{
         setCurrentList(data.tasks)
     })
   }, [])
