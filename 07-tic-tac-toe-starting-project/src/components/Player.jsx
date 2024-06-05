@@ -14,7 +14,7 @@ export default function Player({name,symbol}) {
     
     if (isEditing){
         playerName = <input type = "text" required value ={name}/>
-        
+        btnCaption = "Save"
     }
 
 
