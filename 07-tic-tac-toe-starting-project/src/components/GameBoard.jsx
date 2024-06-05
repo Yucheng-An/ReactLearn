@@ -11,7 +11,8 @@ const initialGameBoard = [
 export default function GameBoard(){
     const [gameBoard, setGameBoard] = useState(initialGameBoard);
 
-    function handleSelectSqueare(){
+    function handleSelectSqueare(
+    ){
         setGameBoard((prevGameBoard) => {
             const newState = [...prevState];
             newState[0] = [...prevState[0]];
