@@ -1,3 +1,3 @@
 import react from 'react';
 
-export default function Player({ player }) {
+export default function Player() {
