@@ -22,7 +22,7 @@ export default function Player({initialName,symbol}) {
     return (
         <li>
             <span className="player">
-                {playerNae}
+                {editablePlayerName}
                 <span className="player-symbol">{symbol}</span>
             </span>
             <button onClick = {handleEditClick}>{btnCaption}</button>
