@@ -9,7 +9,9 @@ export default function Player({initialName,symbol}) {
         setIsEditing((prevState) => !prevState)
     }
 
-    function 
+    function handleChange(event){
+        
+    }
 
     let editablePlayerName = <span className = "player-name" >{playerName}</span>
     let btnCaption = "Edit"
