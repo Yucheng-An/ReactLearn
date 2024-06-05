@@ -14,6 +14,7 @@ function App() {
                     <button>Edit</button>
                 </li>
                 <li>
+                     <span className="player">
                     <span className="player-name">Player 2</span>
                     <span className="player-symbol">O</span>
                 </li>
