@@ -1,1 +1,3 @@
-export deaful
+export default function GameBoard(){
+    
+}
