@@ -1,5 +1,7 @@
 import react from 'react';
-import usestae
+import useState from 'react';
+
+
 export default function Player({name,symbol}) {
 
 
