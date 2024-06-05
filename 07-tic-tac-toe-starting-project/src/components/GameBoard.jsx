@@ -1,4 +1,6 @@
-const initialGameBoard = []
+const initialGameBoard = [
+    
+]
 
 
 
