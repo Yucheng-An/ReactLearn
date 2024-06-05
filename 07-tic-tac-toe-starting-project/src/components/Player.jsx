@@ -3,7 +3,7 @@ import react, {useState} from 'react';
 
 
 export default function Player({name,symbol}) {
-    const [, set] = useState()
+    const [playerName, setPlayerName] = useState()
     const [isEditing, setIsEditing] = useState(false);
     function handleEditClick(){
         setIsEditing((prevState) => !prevState)
