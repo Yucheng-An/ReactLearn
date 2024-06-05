@@ -8,6 +8,7 @@ export default function Player({name,symbol}) {
         setIsEditing(true)
     }
 
+    let playerName 
 
 
     return (
