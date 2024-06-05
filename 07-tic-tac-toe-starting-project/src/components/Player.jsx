@@ -1,9 +1,9 @@
 import react, {useState} from 'react';
-import {useState}from 'react';
+
 
 
 export default function Player({name,symbol}) {
-    const [idEditing, setIdEditing] = useState()
+    const [idEditing, setIdEditing] = useState(false)
 
 
 
