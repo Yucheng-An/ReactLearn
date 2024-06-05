@@ -8,7 +8,8 @@ const initialGameBoard = [
 
 
 export default function GameBoard({onSelectSquare, turns}) {
-    let gameBoard 
+    let gameBoard  = initialGameBoard;
+    
     // const [gameBoard, setGameBoard] = useState(initialGameBoard);
     //
     // function handleSelectSquare(rowIndex,colIndex){
