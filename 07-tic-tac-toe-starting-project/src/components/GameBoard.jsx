@@ -9,8 +9,8 @@ const initialGameBoard = [
 export default function GameBoard(){
     return (
         <ol id="game-board">
-            {initialGameBoard.map(item, idnex) => {
-                
+            {initialGameBoard.map(row, idnex) => {
+
             }}
 
         </ol>
