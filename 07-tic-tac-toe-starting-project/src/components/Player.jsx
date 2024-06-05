@@ -10,7 +10,7 @@ export default function Player({initialName,symbol}) {
     }
 
 
-    let editable = <span className = "player-name" >{name}</span>
+    let editablePlayerName = <span className = "player-name" >{name}</span>
     let btnCaption = "Edit"
     
     if (isEditing){
