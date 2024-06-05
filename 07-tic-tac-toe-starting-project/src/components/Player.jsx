@@ -1,7 +1,7 @@
 import react from 'react';
-
+import usestae
 export default function Player({name,symbol}) {
-    
+
 
 
 
