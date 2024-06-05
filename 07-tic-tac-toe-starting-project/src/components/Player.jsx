@@ -8,7 +8,7 @@ export default function Player({name,symbol}) {
         setIsEditing(true)
     }
 
-    let playerName = <span></span>
+    let playerName = <span className = "" ></span>
 
 
     return (
