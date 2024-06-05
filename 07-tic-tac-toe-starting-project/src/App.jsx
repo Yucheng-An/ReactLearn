@@ -16,6 +16,7 @@ function App() {
             if (prevTurns.length > 0 && prevTurns[0].player === 'X'){
                 currentPlayer = 'O';
             }
+            
         });
     }
 
