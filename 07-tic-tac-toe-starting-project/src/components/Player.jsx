@@ -1,6 +1,6 @@
 import react from 'react';
 
-export default function Player({}) {
+export default function Player({name,symbol}) {
     return (
         <li>
                     <span className="player">
