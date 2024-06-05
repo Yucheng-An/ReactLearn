@@ -4,7 +4,9 @@ import {useState} from "react";
 
 
 function App() {
-    const [activePlayer, setActivePlayer] = useState('X')
+    const [activePlayer, setActivePlayer] = useState('X');
+
+    function handle
 
   return (
       <main>
