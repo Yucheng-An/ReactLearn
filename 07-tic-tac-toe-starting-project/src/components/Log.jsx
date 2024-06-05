@@ -1,1 +1,5 @@
-export default function Log()
+export default function Log(){
+    return (
+        
+    )
+}
