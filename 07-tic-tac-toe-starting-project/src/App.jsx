@@ -3,7 +3,7 @@ import GameBoard from './components/GameBoard.jsx'
 
 
 function App() {
-  usuuu
+  usuu
 
   return (
       <main>
