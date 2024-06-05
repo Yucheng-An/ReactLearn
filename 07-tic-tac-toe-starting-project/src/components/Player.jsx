@@ -1,9 +1,9 @@
 import react from 'react';
-import useState from 'react';
+import {useState}from 'react';
 
 
 export default function Player({name,symbol}) {
-
+    const 
 
 
 
