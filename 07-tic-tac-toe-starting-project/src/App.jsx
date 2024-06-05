@@ -14,10 +14,10 @@ function App() {
                     <button>Edit</button>
                 </li>
                 <li>
-                     <span className="player">
+                    <span className="player">
                     <span className="player-name">Player 2</span>
                     <span className="player-symbol">O</span>
-                         </span>
+                    </span>
                     <button>Edit</button>
                 </li>
                 Game Board
