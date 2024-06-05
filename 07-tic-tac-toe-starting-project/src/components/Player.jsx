@@ -22,7 +22,7 @@ export default function Player({initialName,symbol}) {
     return (
         <li>
             <span className="player">
-                {playerName}
+                {playerNae}
                 <span className="player-symbol">{symbol}</span>
             </span>
             <button onClick = {handleEditClick}>{btnCaption}</button>
