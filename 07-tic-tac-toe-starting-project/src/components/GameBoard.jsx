@@ -11,7 +11,7 @@ const initialGameBoard = [
 export default function GameBoard(){
     const [gameBoard, setGameBoard] = useState(initialGameBoard);
 
-    function 
+    function handleSelect
 
     return <ol id="game-board">
         {initialGameBoard.map((row,rowIndex) =>
