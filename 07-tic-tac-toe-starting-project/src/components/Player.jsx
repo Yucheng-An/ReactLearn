@@ -17,7 +17,7 @@ export default function Player({name,symbol}) {
     return (
         <li>
             <span className="player">
-                <span className="player-name">{name}</span>
+                playerName
                 <span className="player-symbol">{symbol}</span>
             </span>
             {isEditing ? (<button
