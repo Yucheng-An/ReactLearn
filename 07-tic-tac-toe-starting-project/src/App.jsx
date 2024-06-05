@@ -4,7 +4,7 @@ import {useState} from "react";
 
 
 function App() {
-    const [activePlayer, setActivePlayer] = useState()
+    const [activePlayer, setActivePlayer] = useState('')
 
   return (
       <main>
