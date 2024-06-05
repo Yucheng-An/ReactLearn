@@ -11,7 +11,7 @@ const initialGameBoard = [
 export default function GameBoard(){
     const [gameBoard, setGameBoard] = useState(initialGameBoard);
 
-    function handleSelectSqueare(rowIndex,colIndex){
+    function handleSelectSquare(rowIndex,colIndex){
         setGameBoard((prevGameBoard) => {
             const updatedGameBoard = [...prevGameBoard.map(innerArray => [...innerArray])];
             prevGameBoard[rowIndex][colIndex] = "X";
