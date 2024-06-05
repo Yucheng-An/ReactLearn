@@ -9,8 +9,8 @@ const initialGameBoard = [
 export default function GameBoard(){
     return (
         <ol id="game-board">
-            {initialGameBoard.map(row) => {
-                <li></li>
+            {initialGameBoard.map(row, rowIndex) => {
+                <li></li>xxx
             }}
 
         </ol>
