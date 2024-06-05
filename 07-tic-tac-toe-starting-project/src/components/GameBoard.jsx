@@ -1,7 +1,6 @@
 export default function GameBoard(){
     return (
-        <ol
-        >
+        <ol id = "game-board">
 
         </ol>
     )
