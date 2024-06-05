@@ -4,7 +4,10 @@ import {useState} from "react";
 import Log from './components/Log.jsx'
 
 function deriveActivePlayer (gameTurns){
-
+    let currentPlayer = 'X';
+    if (prevTurns.length > 0 && prevTurns[0].player === 'X'){
+        currentPlayer = 'O';
+    }
 }
 
 function App() {
