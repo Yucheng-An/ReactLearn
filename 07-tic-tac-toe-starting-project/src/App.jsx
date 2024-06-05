@@ -4,7 +4,7 @@ function App() {
 
   return (
       <main>
-        <div></div>
+        <div id = "game-container"></div>
       </main>
   )
 }
