@@ -9,7 +9,7 @@ function App() {
       <main>
         <div id = "game-container">
             <ol id="players">
-               
+               <Player name="Player 1" symbol="X"/>
                 <li>
                     <span className="player">
                     <span className="player-name">Player 2</span>
