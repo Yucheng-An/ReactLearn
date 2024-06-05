@@ -19,11 +19,10 @@ function App() {
         // setActivePlayer((currentActivePlayer) => (currentActivePlayer === 'X' ? 'O' : 'X'));
         setGameTurns((prevTurns) => {
             let currentPlayer = deriveActivePlayer(prevTurns)
-            const updatedTurns = [
+            return [
                 {square: {row: rowIndex, col: colIndex}, player: currentPlayer},
                 ...prevTurns
             ];
-            return updatedTurns;
         });
     }
 
