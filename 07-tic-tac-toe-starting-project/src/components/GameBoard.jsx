@@ -13,7 +13,7 @@ export default function GameBoard(){
 
     function handleSelectSqueare(rowIndex,colIndex){
         setGameBoard((prevGameBoard) => {
-            const updatedGameBoard = 
+            const updatedGameBoard = [...prevGameBoard];
             prevGameBoard[rowIndex][colIndex] = "X";
         })
     }
