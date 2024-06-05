@@ -14,6 +14,7 @@ function App() {
                     <span className="player-name">Player 2</span>
                     <span className="player-symbol">O</span>
                 </li>
+                Game Board
             </ol>
         </div>
       </main>
