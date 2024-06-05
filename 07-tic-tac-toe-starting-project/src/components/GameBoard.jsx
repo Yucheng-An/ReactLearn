@@ -8,7 +8,7 @@ const initialGameBoard = [
 
 export default function GameBoard(){
     return <ol id="game-board">
-        {initialGameBoard.map(())}
+        {initialGameBoard.map((row,rowIndex))}
         </ol>
 
 }
