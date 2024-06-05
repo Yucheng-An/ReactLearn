@@ -7,9 +7,9 @@ function App() {
         <div id = "game-container">
           <ol id = "players">
             <li>
+              
 
-
-</li>
+            </li>
           </ol>
         </div>
       </main>
