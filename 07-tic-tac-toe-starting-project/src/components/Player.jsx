@@ -11,6 +11,7 @@ export default function Player({name,symbol}) {
 
     let playerName = <span className = "player-name" >{name}</span>
     let btnCaption = "Edit"
+    
     if (isEditing){
         playerName = <input type = "text" required />
     }
