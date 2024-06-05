@@ -4,7 +4,6 @@ import {useState} from "react";
 import Log from './components/Log.jsx'
 
 
-
 function App() {
     const [gameTurns, setGameTurns] = useState([])
     const [activePlayer, setActivePlayer] = useState('X');
@@ -16,11 +15,10 @@ function App() {
             if (prevTurns.length > 0 && prevTurns[0].player === 'X'){
                 currentPlayer = 'O';
             }
-            const updatedTurns = [
+            return [
                 {square: {row: rowIndex, col: colIndex}, player: currentPlayer},
                 ...prevTurns
             ];
-            return updatedTurns;
         });
     }
 
