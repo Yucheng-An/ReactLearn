@@ -7,9 +7,10 @@ export default function Player({name,symbol}) {
     function handleEditClick(){
         setIsEditing(true)
     }
-    
+
 
     let playerName = <span className = "player-name" >{name}</span>
+    let btnCaption = "Edit"
     if (isEditing){
         playerName = <input type = "text" required />
     }
