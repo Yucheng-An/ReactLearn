@@ -3,7 +3,9 @@ import GameBoard from './components/GameBoard.jsx'
 import {useState} from "react";
 import Log from './components/Log.jsx'
 
-function deriveActivePlayer (gameTurns)
+function deriveActivePlayer (gameTurns){
+    
+}
 
 function App() {
     const [gameTurns, setGameTurns] = useState([])
