@@ -9,6 +9,7 @@ function App() {
     const [gameTurns, setGameTurns] = useState([])
     const [activePlayer, setActivePlayer] = useState('X');
 
+    let currentPlayer = 'X';
     
 
     function handleSelectSquare(rowIndex,colIndex){
