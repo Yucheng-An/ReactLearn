@@ -1,5 +1,5 @@
 const initialGameBoard = [
-    [1,null,null],
+    [null,null,null],
     [null,null,null],
     [null,null,null],
 ]
