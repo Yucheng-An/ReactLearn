@@ -6,6 +6,7 @@ import Log from './components/Log.jsx'
 
 
 function App() {
+    const [, set] = useState()
     const [activePlayer, setActivePlayer] = useState('X');
 
     function handleSelectSquare(rowIndex,colIndex){
