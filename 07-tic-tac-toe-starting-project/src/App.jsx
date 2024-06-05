@@ -13,7 +13,7 @@ function App() {
         setActivePlayer((currentActivePlayer) => (currentActivePlayer === 'X' ? 'O' : 'X'));
         setGameTurns((prevTurns) => {
             let currentPlayer = 'X';
-            if (prevTurns.length > 0 && prevTurns[])
+            if (prevTurns.length > 0 && prevTurns[0])
         });
     }
 
