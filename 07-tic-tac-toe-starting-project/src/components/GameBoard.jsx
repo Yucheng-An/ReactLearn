@@ -12,7 +12,7 @@ export default function GameBoard(){
             <li key = {rowIndex}>
             <ol>
                 {row.map((playerSymbol,colIndex) => <li key = {colIndex}>
-                    <button>{col}</button>
+                    <button>{playerSymbol}</button>
                 </li>)}
             </ol>
         </li>)}
