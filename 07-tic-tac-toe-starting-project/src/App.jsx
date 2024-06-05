@@ -6,7 +6,9 @@ import {useState} from "react";
 function App() {
     const [activePlayer, setActivePlayer] = useState('X');
 
-    function handle
+    function handleSelectSquare(rowIndex,colIndex){
+        
+    }
 
   return (
       <main>
