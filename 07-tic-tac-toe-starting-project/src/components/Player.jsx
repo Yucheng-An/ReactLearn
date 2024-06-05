@@ -3,7 +3,7 @@ import react, {useState} from 'react';
 
 
 export default function Player({name,symbol}) {
-    const [idEditing, setIdEditing] = useState(false);
+    const [isEditing, setIsEditing] = useState(false);
 
 
 
