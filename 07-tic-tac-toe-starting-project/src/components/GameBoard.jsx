@@ -17,7 +17,7 @@ export default function GameBoard({onSelectSquare}) {
             updatedGameBoard[rowIndex][colIndex] = "X";
             return updatedGameBoard;
         })
-        onSelectSquare(rowIndex,colIndex);
+        onSelectSquare();
     }
 
     return <ol id="game-board">
