@@ -20,8 +20,8 @@ function App() {
                     </span>
                     <button>Edit</button>
                 </li>
-                Game Board
             </ol>
+            Game Board
         </div>
       </main>
   )
