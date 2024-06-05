@@ -9,6 +9,7 @@ export default function Player({name,symbol}) {
     }
 
     let playerName = <span className = "player-name" >{name}</span>
+    
 
 
     return (
