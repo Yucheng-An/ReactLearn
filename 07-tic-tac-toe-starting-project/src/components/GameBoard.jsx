@@ -12,7 +12,12 @@ export default function GameBoard(){
     const [gameBoard, setGameBoard] = useState(initialGameBoard);
 
     function handleSelectSqueare(){
-        
+        setGameBoard((prevState) => {
+            const newState = [...prevState];
+            newState[0] = [...prevState[0]];
+            newState[0][0] = 'X';
+            return newState;
+        })
     }
 
     return <ol id="game-board">
