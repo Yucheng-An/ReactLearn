@@ -9,7 +9,8 @@ const initialGameBoard = [
 
 
 export default function GameBoard(){
-    const [gameBoard, setGameBoard] = useState()
+    const [gameBoard, setGameBoard] = useState(initialGameBoard)
+    
     return <ol id="game-board">
         {initialGameBoard.map((row,rowIndex) =>
             <li key = {rowIndex}>
