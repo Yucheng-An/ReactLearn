@@ -1,8 +1,8 @@
 
 
 
-export default function Log(){
-    
+export default function Log({}){
+
     return (
         <ol id = "log">
 
