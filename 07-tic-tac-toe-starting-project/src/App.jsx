@@ -1,9 +1,10 @@
 import Player from './components/Player.jsx'
 import GameBoard from './components/GameBoard.jsx'
+import {useState} from "react";
 
 
 function App() {
-  usuu
+    const [activePlayer, setActivePlayer] = useState()
 
   return (
       <main>
