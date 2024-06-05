@@ -8,7 +8,7 @@ function App() {
           <ol id = "players">
             <li>
                 <span className = "player-name"></span>
-
+                <span className
             </li>
           </ol>
         </div>
