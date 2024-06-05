@@ -13,8 +13,7 @@ export default function Player({name,symbol}) {
     let btnCaption = "Edit"
     
     if (isEditing){
-        playerName = <input type = "text" required />
-        btnCaption = "Save"
+        playerName = <input type = "text" required value ={}
     }
 
 
