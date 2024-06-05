@@ -5,8 +5,8 @@ function App() {
   return (
       <main>
         <div id = "game-container">
-          <ol>
-            
+          <ol id = "players">
+
           </ol>
         </div>
       </main>
