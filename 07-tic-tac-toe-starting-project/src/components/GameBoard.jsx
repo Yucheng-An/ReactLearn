@@ -11,7 +11,7 @@ export default function GameBoard(){
         {initialGameBoard.map((row,rowIndex) =>
             <li key = {rowIndex}>
             <ol>
-                {row.map((col,colIndex) => <li key = {colIndex}>cor</li>)}
+                {row.map((col,colIndex) => <li key = {colIndex}>{cor}</li>)}
             </ol>
         </li>)}
     </ol>
