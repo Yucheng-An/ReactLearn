@@ -6,7 +6,7 @@ function App() {
       <main>
         <div id = "game-container">
           <ol id = "players">
-            <li><span className = ""></span></li>
+            <li><span className = "player-name"></span></li>
           </ol>
         </div>
       </main>
