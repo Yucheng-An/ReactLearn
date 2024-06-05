@@ -9,7 +9,7 @@ function deriveActivePlayer (gameTurns){
 
 function App() {
     const [gameTurns, setGameTurns] = useState([])
-    const [activePlayer, setActivePlayer] = useState('X');
+    // const [activePlayer, setActivePlayer] = useState('X');
 
 
 
