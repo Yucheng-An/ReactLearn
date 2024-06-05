@@ -15,6 +15,7 @@ export default function GameBoard(){
         setGameBoard((prevGameBoard) => {
             const updatedGameBoard = [...prevGameBoard.map(innerArray => [...innerArray])];
             prevGameBoard[rowIndex][colIndex] = "X";
+            return updatedGameBoard;
         })
     }
 
